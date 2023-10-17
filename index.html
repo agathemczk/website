@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Mooli&display=swap');
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mojito</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/cocktails.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <header>
+    <a href="#" title="Mon site de cocktail">
+      <img src="./image/logo.jpg" alt="logo" width="20%" class="logo">
+    </a>
+  <nav>
+      <ul class="display">
+          <li>MON COCKTAIL</li>
+          <li>INGREDIENTS</li>
+          <li>RECETTE</li>
+      </ul>
+  </nav>
+  
+  </header>
+
+  <main id="main_container">
+
+  <body class="mooli">
+    <h1 id="Tittle">Le Mojito</h1>
+    <div class="colonne">
+      <div id="img_Cocktail">
+      <img src="./image/mojito.jpg" alt="photo d'un Mojito" width="40%" id="image"/> 
+      <img src="./image/studio54.png" alt="logo Studio 54" width="20%" id="elem"/>
+      </div>
+    <p class="dosis" id="text">
+      Le mojito est un <strong> cocktail </strong> traditionnel de la cuisine
+      cubaine et de la culture de Cuba.
+      <br />
+      <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur fugit ab tempora, necessitatibus excepturi dignissimos nisi ex nulla laudantium veritatis nemo iusto hic. Quibusdam necessitatibus explicabo perspiciatis. Quis, possimus!
+    </p>
+    </div>
+
+    <div class="colonne">
+    <section id="section_ingredients" class="txtWhite">
+    
+        <p class="littleTittle">Ingrédients :</p>
+        <ul class="dosis">
+          <li>rhum</li>
+          <li>limonade</li>
+          <li>citron vert</li>
+          <li>mente fraîche</li>
+          <li>sucre de canne</li>
+        </ul>
+      
+    </section>
+
+    <section id="section_recette" class="txtWhite">
+      
+        <p class="littleTittle">Recette :</p>
+        <ol class="dosis">
+            <li> Ajoutez les feuilles de menthe. </li>
+            <li> Coupez le citron. </li>
+            <li> Ajoutez le sucre de canne. </li>
+            <li> Pilez le tout. </li>
+            <li> Ajoutez le rhum. </li>
+            <li> Préparez la glace pilée. </li>
+            <li> Mélangez. </li>
+            <li> Santé ! </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="Newsletter">
+    <P class="littleTittle">Newsletter</P>
+
+    <div class="container">
+      <div class="form">
+        <div class="form__group">
+          <label for="prenom">PRENOM</label>
+          <input type="text" name="prenom" id="prenom" pattern="[A-z]{2,20}"required placeholder="prenom">
+        </div>
+        <div class="form__group">
+          <label for="nom">NOM</label>
+          <input type="text" name="nom" id="nom" pattern="[A-z]{2,20}" required placeholder="nom">
+        </div>
+        <div class="form__group">
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" required placeholder="email">
+        </div>
+        <div class="form__group"> 
+          <p>
+            <label for="t1">Quelle est votre boisson préférée&nbsp;?</label>
+            <input type="text" id="t1" name="--boisson--" list="l1" required
+                   pattern="[Cc]oca|[Oo]rangina|[Jj]us de pomme|[Dd]iabolo violette|[Vv]odK'prot|[Jj]us d'ananas" placeholder="choix">
+            <datalist id="l1">
+              <option>Coca</option>
+              <option>Orangina</option>
+              <option>Jus de pomme</option>
+              <option>Diabolo violette</option>
+              <option>VodK'prot</option>
+              <option>Jus d'ananas</option>
+              </datalist>
+          </p>          
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="anim-cocktail">
+    <div class="cocktail-party">
+      <h1 class="party">Cocktail</br>PARTY</h1>
+      <div class="green-drink">
+        <div class="juice"></div>
+      </div>
+      <div class="martini">
+        <div class="glass"></div>
+        <div class="olives"></div>
+      </div>
+      <div class="whiskey"></div>
+    </div>
+  </section>
+
+  </body>
+  </main>
+
+  <footer> 
+    <br />
+    <br />
+    <a id="link"
+      href="https://fr.wikipedia.org/wiki/Pi%C3%B1a_colada"
+      title="Pour plus de cocktails"
+      target="_blank"
+      rel="noopener noreferrer"
+    ><br />
+      >Pina colada</a>
+      <br />
+      <br />
+      <br />
+  </footer>
+
+</html>

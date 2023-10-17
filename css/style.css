@@ -1,0 +1,200 @@
+body {
+    margin : 0;
+    width: 100%;
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-size: 28px 28px;
+    background-image: repeating-linear-gradient(45deg, #e4d8d0 0, #e4d8d0 2.8000000000000003px, #e5e5f7 0, #e5e5f7 50%);
+}
+
+#main_container{
+    width: 1024px;
+    background-color: white;
+    margin :auto;
+    padding : 20px;
+    margin : 20px auto;
+
+}
+header{
+    background-color: black;
+    width: 100%;
+    color: whitesmoke;
+    display : flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    margin : 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#Tittle {
+    color:rgb(106, 137, 162);
+    background-color:azure;
+    font-size : 40px;
+    font-weight: bold;
+    font-family : 'Mooli',sans-serif;
+    
+} 
+#section_ingredients{
+    padding:10px;
+    border:solid 2px black;
+    width:45%;
+}
+
+#section_recette{
+    padding:10px;
+    border:solid 2px black;
+    width:45%;
+    
+}
+
+.txtWhite li {
+    color : rgb(140, 168, 113);
+}
+
+#link {
+    color :#ffffff;
+}
+
+#link:hover {
+    cursor : pointer;
+    color : rgb(112, 101, 184);
+}
+.display{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap : 100px;
+    padding : 20px;
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+.mooli {
+    font-family: 'Mooli', sans-serif;
+} 
+
+.colonne {
+    display: flex;
+    justify-content: space-between ;
+    margin:20px; 
+}
+.littleTittle{
+    font-family: 'Mooli', sans-serif;
+    color :rgb(106, 137, 162);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo{
+    margin:9px;
+    transform:rotate(-15deg) skew(10deg) scale(1.25) translate(-10px,5px);
+    transform: perspective(10px) rotateX(10px);
+}
+
+#img_Cocktail{
+    position:relative;
+}
+
+#elem{ 
+    padding:10px;
+    width:35%;
+    position:absolute;
+    width:10%;
+    right:2%;
+    top:2%;
+    transform: perspective(30px) rotateX(10px);
+}
+
+#image{
+    width:100%;
+}
+
+#text{
+    margin:20px;
+    width:45%;
+}
+
+
+
+
+.container {
+    background-color: rgb(163, 208, 208);
+    padding: 8%;
+  }
+
+input,
+label {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+.form__group {
+    padding: 1%;
+  }
+
+input {
+    border: 2px solid #fff;
+    border-radius: 100rem;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+    background: #fff;
+    transition : all 1s;
+  }
+  
+input:focus {
+    border: 2px solid black;  
+    border-radius: 5px;
+  }
+  
+input:not(:focus):invalid {
+    background: var(--colorREd);
+    border: 2px solid var(--colorREd);
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  
+input:not(:focus):valid {
+    background: rgba(59, 202, 27, 0.933);
+    border: 2px solid rgba(59, 202, 27, 0.933);
+    border-radius: 5px;
+    color: #fff;
+}
+
+input:placeholder-shown {
+  background-color: white !IMPORTANT;
+  border: 2px solid black !IMPORTANT;
+  border-radius: 5px !IMPORTANT;
+}
+
+#Newsletter {
+    width: 91%;
+    padding:2%;
+    margin: 2%;    
+}
+
+:root {
+    --colorREd:rgba(233, 87, 87, 0.871);
+  }
+
+  input:invalid {
+    border: 2px dashed rgb(160, 55, 55);
+  }
+  
+  input:valid {
+    border: 1px solid black;
+  }
